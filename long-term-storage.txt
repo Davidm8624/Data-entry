@@ -1,3 +1,3 @@
-dnhuiehfiue
-nfrihsguir
-ast name
+#<Person:0x0000ffffb8f989f0 @name="test1\n", @age=1, @sex="male", @fav_color="pink", @credit_score="good">
+#<Person:0x0000ffff861689e8 @name="test2\n", @age=0, @sex="invalid option", @fav_color="f", @credit_score="poor">
+#<Person:0x0000ffff95858988 @name="ooga\n", @age=11, @sex="female", @fav_color="orange", @credit_score="excelent">

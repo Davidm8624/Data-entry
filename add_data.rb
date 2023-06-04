@@ -56,4 +56,9 @@ puts person1.sex
 puts person1.fav_color
 puts person1.credit_score
 
-File.write("long-term-storage.txt", person1, mode: "a")
+# File.write("long-term-storage.txt", person1.inspect, "/n", mode: "a") 
+
+#was wonder why above didnt work: its \n not /n             the whole #{} didnt make a diff
+
+
+File.write("long-term-storage.txt", "#{person1.inspect}\n", mode: "a")
